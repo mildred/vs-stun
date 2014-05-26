@@ -95,6 +95,10 @@ var resolve = exports.resolve = function resolve ( socket, server, callback, ret
   client.resolve(socket, server, callback, retransmission);
 }
 
+var resolve_tcp = exports.resolve_tcp = function resolve_tcp ( socket, server, callback, retransmission ) {
+  client.resolve_tcp(socket, server, callback, retransmission);
+}
+
 var respond = exports.respond = function respond ( socket, data, callback ) {
 }
 
